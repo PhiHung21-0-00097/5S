@@ -1,0 +1,34 @@
+.detailedservice {
+  font-family: "Inter", sans-serif;
+}
+.detailedservice * {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+.detailedservice .row-body-title {
+  padding: 10px;
+  display: block;
+  background-color: white;
+}
+.detailedservice .row-body-title h3 {
+  font-weight: bold;
+  color: #007bd9;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bd9;
+}
+
+.detailedservice .row-body-title span {
+  font-weight: bold;
+  color: #007bd9;
+}
+
+@media only screen and (max-width: 769px) {
+  .service_s .row-body .button-service_s .link {
+    margin-left: 5rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+  .detailedservice .hr-body-service {
+    margin-left: 9rem;
+  }
+}

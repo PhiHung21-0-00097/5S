@@ -1,0 +1,40 @@
+@import "./Header.scss";
+
+@import "./Slider.scss";
+@import "./Introduce.scss";
+@import "./App.scss";
+@import "./Service.scss";
+@import "./Category.scss";
+
+@import "./Representative.scss";
+@import "./Swiper-Representative.scss";
+@import "./Swiper-Product.scss";
+@import "./News.scss";
+@import "./Partner.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --inter-: "Inter", sans-serif;
+  --center-: (
+    align-content: center,
+    align-items: center,
+    align-self: center,
+    justify-content: center,
+    justify-items: center,
+    justify-self: center;
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*==========================================================================MIXIN-News-Representative========================================*/
+
+/*==================================================================================================================================*/

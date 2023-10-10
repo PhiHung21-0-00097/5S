@@ -1,0 +1,33 @@
+.detailednews {
+  font-family: "Inter", sans-serif;
+}
+.detailednews * {
+  color: black;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.detailednews .row-title .title {
+  padding: 10px;
+  display: block;
+  background-color: white;
+  h3 {
+    font-weight: bold;
+    color: #007bd9;
+    border-bottom: 2px solid #007bd9;
+  }
+  h5 {
+    text-transform: uppercase;
+    font-style: italic;
+  }
+}
+
+.detailednews .row-body h4 {
+  text-transform: uppercase;
+  color: #007bd9;
+  font-weight: bold;
+}
+.detailednews .img-first,
+.img-after {
+  width: 100%;
+}

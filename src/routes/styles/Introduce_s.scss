@@ -1,0 +1,118 @@
+.introduce_s .ytp-cued-thumbnail-overlay-image {
+  background-image: url("https://i.ytimg.com/vi_webp/wrt9lH3t9a0/sddefault.webp");
+  background-repeat: no-repeat;
+  width: 70rem;
+}
+.introduce_s {
+  font-family: "Inter", sans-serif;
+}
+.video-stream {
+  height: 30rem;
+}
+.introduce_s .row-body .col-left .img-left {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+}
+.introduce_s .row-body .col-left .img-left svg {
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.introduce_s .row-body .col-left strong {
+  color: white;
+  text-transform: uppercase;
+}
+.introduce_s .row-body .col-left p {
+  color: white;
+}
+.introduce_s .row-body .col-left {
+  background: linear-gradient(89.99deg, #007bd9 10.77%, #59b7ff 100.52%);
+  border-radius: 8px 0 0 8px;
+  //   background-image: url(../../assets/images/slider/slider.png);
+  background-size: cover;
+}
+
+.introduce_s .row-body .col-left h3 {
+  margin-bottom: 1.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.introduce_s .row-top h1 {
+  color: #007bd9;
+  font-weight: bold;
+}
+.introduce_s .row-body h2 {
+  color: #007bd9;
+  font-weight: bold;
+}
+.introduce_s .btn-submit button {
+  width: 130px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-family: "Inter", sans-serif;
+  background: rgba(0, 0, 0, 0.3882352941);
+  background-color: rgba(0, 0, 0, 0.39);
+  transition: all 0.5s ease;
+}
+.introduce_s .btn-submit button:hover {
+  background-color: #ffcb51;
+}
+.introduce_s .row-body .col-right h2 {
+  color: #007bd9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.introduce_s .row-body .col-left {
+  box-shadow: 5px 5px 10px black;
+}
+.introduce_s .row-body .icons {
+  margin-bottom: -5rem;
+}
+.introduce_s .row-body {
+  background-color: #f3f3f3;
+}
+.introduce_s .row-top-introduce_s h2 {
+  color: #007bd9;
+  font-weight: bold;
+}
+.introduce_s .row-top-introduce_s strong {
+  font-size: 1rem;
+}
+
+.introduce_s .row-body-introduce_s h2 {
+  color: #007bd9;
+  font-weight: bold;
+}
+.introduce_s.row-body-introduce_s h3 {
+  color: #007bd9;
+  font-weight: bold;
+}
+.introduce_s .row-top-introduce_s b {
+  display: block;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 2px;
+  opacity: 0.1;
+  background-color: currentColor;
+}
+
+.introduce_s .row-if h4 {
+  font-weight: bold;
+}
+
+//   transition: 0.5s;
+//   padding-left: 3px;
+//   color: #ffcb51;
+//   cursor: pointer;
+// }
+.introduce_s .far {
+  font-size: 4rem;
+}

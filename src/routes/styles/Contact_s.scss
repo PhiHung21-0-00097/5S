@@ -1,0 +1,62 @@
+.contact_s {
+  font-family: "Inter", sans-serif;
+}
+.contact_s .row-body .col-left {
+  box-shadow: 5px 5px 10px black;
+}
+.contact_s .row-body t {
+  box-shadow: 30px 30px;
+}
+.contact_s .row-body .col-left {
+  background: linear-gradient(89.99deg, #007bd9 10.77%, #59b7ff 100.52%);
+  border-radius: 8px 0 0 8px;
+  //   background-image: url(../../assets/images/slider/slider.png);
+  background-size: cover;
+}
+
+.contact_s .row-body .col-left h3 {
+  margin-bottom: 1.25rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.contact_s .row-body .col-left .img-left {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+}
+.contact_s .row-body .col-left .img-left svg {
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.contact_s .row-body .col-left strong {
+  color: white;
+  text-transform: uppercase;
+}
+.contact_s .row-body .col-left p {
+  color: white;
+}
+.contact_s .row-body .col-right h2 {
+  color: #007bd9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact_s .btn-submit button {
+  width: 130px;
+  height: 50px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-family: "Inter", sans-serif;
+  background: rgba(0, 0, 0, 0.3882352941);
+  transition: all 0.5s ease;
+}
+.contact_s .btn-submit button:hover {
+  background-color: #ffcb51;
+}

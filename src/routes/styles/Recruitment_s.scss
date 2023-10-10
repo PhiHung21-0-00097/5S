@@ -1,0 +1,28 @@
+.recruitment_s {
+  font-family: "Inter", sans-serif;
+}
+.recruitment_s * {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+.recruitment_s .row-top-title h3 {
+  font-weight: bold;
+  color: #007bd9;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bd9;
+}
+.recruitment_s .row-body .row-title h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.recruitment_s .row-body .row-vitri {
+  padding-left: 1rem;
+}
+.recruitment_s .row-body .row-vitri h5 {
+  font-weight: bold;
+}
+.recruitment_s .row-bottom .row-vitri .text {
+  font-style: italic;
+}
