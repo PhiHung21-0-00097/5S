@@ -1,0 +1,61 @@
+.slider .img-slider {
+  width: 100%;
+}
+
+.slider .slider-from {
+  display: block;
+  position: relative;
+}
+.slider .row-img-slider {
+  width: 100%;
+}
+.slider .col-img-slider {
+  width: 100%;
+}
+.slider .swiper-button-prev::after,
+.swiper-butto-next::after {
+  opacity: 0 - 1;
+}
+.slider .swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+.slider .swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+.slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider-form {
+  width: 100%;
+}
+@media only screen and (max-width: 769px) {
+  .img-slider {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1025px) {
+  .img-slider {
+    width: 100%;
+  }
+}

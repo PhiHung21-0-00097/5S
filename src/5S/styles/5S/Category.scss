@@ -1,0 +1,100 @@
+@mixin line-header {
+  width: 10rem;
+  border-top: 3px solid rgb(255, 255, 255);
+  margin-left: 18rem;
+  margin-bottom: 1rem;
+}
+@mixin title-span {
+  color: white;
+  line-height: 33px;
+}
+.category {
+  margin-top: -3rem;
+  background-color: #f2f4f9;
+}
+.category .container {
+  background: linear-gradient(to bottom, #59b7ffa1 10%, white 100%),
+    url("../../src/assets/images/category/Vectorsongxanh.png");
+  background-repeat: repeat, repeat;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.title-all {
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}
+.category .ls {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.line-hr {
+  @include line-header();
+}
+// .category .hr {
+//   border: none;
+//   background-color: #007bd9;
+//   height: 4px;
+//   width: 129px;
+//   border-radius: 50px;
+//   text-align: center;
+// }
+
+.category .category-span {
+  @include title-span();
+}
+
+.card-body-category .eclip {
+  position: absolute;
+}
+.card-body-category .sp-in {
+  position: relative;
+  margin-top: 2rem;
+}
+.category .button-introduce .link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: var(--inter-);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0px 47px;
+  background: #007bd9;
+  display: flex;
+  border-radius: 50px;
+  transition: all 0.5s;
+  border: none;
+  word-break: break-all;
+  writing-mode: horizontal-tb;
+}
+.category .button-introduce .link {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.category .button-introduce a:hover {
+  background-color: #ffcb51;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 769px) {
+  .line-hr {
+    width: 10rem;
+    border-top: 3px solid rgb(255, 255, 255);
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+  }
+}
